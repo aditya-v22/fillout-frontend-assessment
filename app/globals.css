@@ -8,8 +8,25 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+
+  --color-text-black: rgba(26, 26, 26, 1); /** #1A1A1A */
+
+  --color-amber-400: rgba(245, 157, 14, 1); /** #F59D0E */
+
+  --color-blue-100: rgba(250, 251, 252, 1); /** #FAFBFC */
+  --color-blue-300: rgba(47, 114, 226, 0.25); /** #2F72E2 at 25% opacity */
+  --color-blue-500: rgba(47, 114, 226, 1); /** #2F72E2 */
+
+  --color-gray-100: rgba(225, 225, 225, 1); /** #E1E1E1 */
+  --color-gray-200: rgba(157, 164, 178, 0.15); /** #9DA4B2 at 15% opacity */
+  --color-gray-300: rgba(157, 164, 178, 0.35); /** #9DA4B2 at 35% opacity */
+  --color-gray-400: rgba(192, 192, 192, 1); /** #C0C0C0 */
+  --color-gray-500: rgba(157, 164, 178, 1); /** #9DA4B2 */
+  --color-gray-700: rgba(140, 147, 161, 1) /** #8C93A1 */;
+  --color-gray-800: rgba(103, 114, 137, 1) /** #677289 */;
+
+  --color-red-400: rgba(239, 73, 79, 1); /** EF494F */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +39,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, sans-serif;
 }
