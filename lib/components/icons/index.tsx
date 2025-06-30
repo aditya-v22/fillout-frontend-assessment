@@ -1,0 +1,10 @@
+export { default as FileTextIcon } from "./FileTextIcon";
+export { default as ThreeDotIcon } from "./ThreeDotIcon";
+export { default as InfoCircleIcon } from "./InfoCircleIcon";
+export { default as CheckCircleIcon } from "./CheckCircleIcon";
+export { default as PlusIcon } from "./PlusIcon";
+export { default as TrashIcon } from "./TrashIcon";
+export { default as FlagIcon } from "./FlagIcon";
+export { default as ClipboardIcon } from "./ClipboardIcon";
+export { default as PencilWithLineIcon } from "./PencilWithLineIcon";
+export { default as SquareBehindSquareIcon } from "./SquareBehindSquareIcon";
